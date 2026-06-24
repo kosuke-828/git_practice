@@ -7,7 +7,7 @@ SRC=main.c message.c
 all: $(TARGET)
 $(TARGET): $(SRC)
 	mkdir -p $(BUILD_DIR)
-	$(CC) $(CFLAGS) $(SRC) -o $(TAGET)
+	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
 
 run: all
 	./$(TARGET)
