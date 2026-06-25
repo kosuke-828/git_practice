@@ -7,6 +7,6 @@ int main(){
     print_message();
     count=count+1;
     printf("count=%d\n",count);
-    printf("add branch");
+    printf("conflict test");
     return 0;
 }
