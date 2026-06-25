@@ -7,6 +7,6 @@ int main(){
     print_message();
     count=count+1;
     printf("count=%d\n",count);
-    printf("\nchange from conflict base\n");
+    printf("\nresolved conflict\n");
     return 0;
 }
