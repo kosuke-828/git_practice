@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "message.h"
 int main(){
-printf("C make practice");
-print_message();
-return 0;
+    int count=3;
+    printf("C make practice\n");
+    printf("count= %d\n",count);
+    print_message();
+    count=count+1;
+    printf("count=%d\n",count);
+    return 0;
 }
