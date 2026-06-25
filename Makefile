@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -Wall -Wextra -g
+CFLAGS= -Wall -Wextra -g -O0
 BUILD_DIR=build
 TARGET=$(BUILD_DIR)/practice
 SRC=main.c message.c 
