@@ -2,7 +2,7 @@
 #include "message.h"
 int main(){
     int count=1;
-    for(i;i<=10;i++){
+    for(int i=1;i<=10;i++){
     printf("C make practice\n");
     //printf("count= %d\n",count);
     //print_message();
