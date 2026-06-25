@@ -7,6 +7,6 @@ int main(){
     print_message();
     count=count+1;
     printf("count=%d\n",count);
-    printf("conflict test");
+    printf("still main");
     return 0;
 }
