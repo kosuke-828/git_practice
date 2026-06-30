@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -Wall -Wextra -g -O0
+CFLAGS= -Wall -Wextra -g -O0 -fsanitize=address
 BUILD_DIR=build
 TARGET=$(BUILD_DIR)/practice
 SRC=main.c message.c 
