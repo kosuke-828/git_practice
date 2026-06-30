@@ -3,15 +3,14 @@
 
 int main()
 {
-    int count = 3;
-
+    int data[3]={10,20,30};
+    int sum = 0;
     printf("C Make Practice\n");
-    printf("count = %d\n", count);
-
+    for (int i=0;i<=3;i++){
+    sum += data[i];
+    printf("i=%d,data=%d,sum=%d"i,data[i],sum);
+    }
     print_message();
-
-    count = count + 1;
-    printf("count = %d\n", count);
 
     return 0;
 }
