@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS= -Wall -Wextra -g -O0 
-ASANFLAGS= -fsanitize =address
+ASANFLAGS= -fsanitize=address
 BUILD_DIR=build
 TARGET=$(BUILD_DIR)/practice
 ASAN_TARGET=$(BUILD_DIR)/practice_asan
@@ -19,7 +19,7 @@ $(ASAN_TARGET): $(SRC)
 run: all
 	./$(TARGET)
 
-asan: all
+asan: $(ASAN_TARGET)
 	./$(ASAN_TARGET)
 clean:
 	rm -rf $(BUILD_DIR)
