@@ -5,7 +5,7 @@ BUILD_DIR=build
 TARGET=$(BUILD_DIR)/practice
 ASAN_TARGET=$(BUILD_DIR)/practice_asan
 SRC=main.c message.c 
-.PHONY all run asan clean
+.PHONY: all run asan clean
 all: $(TARGET)
 
 $(TARGET): $(SRC)
